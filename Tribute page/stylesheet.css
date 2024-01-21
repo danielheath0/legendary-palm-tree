@@ -1,0 +1,78 @@
+#bachpiccontainer {
+    margin-top: 20px;
+    height: 50%;
+    width: 50%;
+
+}
+
+#bachpic {
+    height: 50%;
+    width: 50%;
+}
+
+#bach-carousel {
+    background-color: black;
+    max-width: 50%;
+    height: auto;
+
+    padding-top: 20px;
+
+}
+
+.gallery {
+    display: inline;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.pagetitle {
+    text-align: center;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.nav-wrapper {
+    padding: 0px 10px;
+}
+
+.card {
+    padding: auto
+}
+
+.card.xlarge {
+    height: 600px
+}
+
+.blockquote {
+    padding: 0px 30px
+}
+
+.bachsummary {
+    text-align: justify;
+}
+
+
+
+*{
+    font-family: 'Arvo' ;
+}
+
+
+
+/* .carouselimg {
+    vertical-align: middle;
+} */
+
+/* body {
+    background-image: url("./resources/images/violinbg.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+   } */

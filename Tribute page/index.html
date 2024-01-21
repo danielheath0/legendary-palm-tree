@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Challenge || Materialize CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+
+<body>
+    <!-- background image -->
+
+
+    <!--navbar-->
+    <nav>
+        <div class="nav-wrapper blue lighten-2">
+            <a href="index.html" class="brand-logo">J. S. Bach</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./biog.html">Biography</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./topfive.html">Music</a></li>
+            </ul>
+            <a href="" data-target="slide-out" class="left-align sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="slide-out">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./biog.html">Biography</a></li>
+        <li><a href="./gallery.html">Gallery</a></li>
+        <li><a href="./topfive.html">Music</a></li>
+    </ul>
+    <!-- main content -->
+    <div class="container">
+        <div class="row center" id="bachpiccontainer">
+            <img src="./resources/images/bachpic.jpg" alt="A picture of J. S. Bach" class="z-depth-3" id="bachpic">
+        </div>
+    </div>
+
+    <div class="container" style="margin-bottom: 20px;">
+        <article id="homeintro">
+            <h5>Welcome to my tribute page to the greatest composer who ever lived:</h5>
+
+            <p style="font-size: 40px; text-align: center; color:darkblue; font-weight: 800">Johann Sebastian Bach</p>
+
+            <p>These pages will give you some fun details about his <a href=biog.html>life</a>, show you some <a
+                    href="gallery.html">pictures</a>, and showcase some of his most popular and interesting pieces of <a
+                    href="topfive.html">music</a>.</p>
+        </article>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./myscript.js"></script>
+
+</body>
+
+<footer class="page-footer blue lighten-2">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Daniel Heath</h5>
+                <h6 class="white-text">20/1/24</h6>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
